@@ -27,8 +27,8 @@ animateBalloon(){
     this.elRef.nativeElement.firstChild.clientWidth -
     buffer;
   const leftPosition = Math.floor(Math.random() * maxWidth);
-  const minSpeed = 2;
-  const speedVariation = 3;
+  const minSpeed = 5;
+  const speedVariation = 5;
   const speed = minSpeed + Math.random() * speedVariation;
   const flyAnimation = this.animBuilder.build([
     style({
